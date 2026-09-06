@@ -1,0 +1,19 @@
+en:
+    title: Debug marker for Twig templates
+    description: >
+        Contao's classic .html5 templates wrap their output in a comment marking the start and
+        end of each template in debug mode, so a page's source instantly shows which template
+        produced which piece of markup. When a same-named Twig template takes precedence, that
+        comment is missing. This extension closes exactly that gap without touching Contao
+        itself.
+
+        It only takes effect in debug mode, and only for Twig templates Contao itself loads under
+        a fixed name, that is content elements, modules and old templates that have been replaced
+        by a Twig template. Outside debug mode the extension does nothing; the output stays
+        unchanged.
+    keywords:
+        - contao
+        - twig
+        - debug
+        - template
+        - e-spin
