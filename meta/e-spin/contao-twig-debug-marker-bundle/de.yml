@@ -1,11 +1,11 @@
 de:
     title: Debug-Marker für Twig-Templates
     description: >
-        Die klassischen .html5-Vorlagen von Contao umgeben ihre Ausgabe im Debug-Modus mit einem
-        Kommentar, der Anfang und Ende der jeweiligen Vorlage markiert, damit im Quelltext sofort
-        zu sehen ist, welche Vorlage welches Stück HTML erzeugt hat. Übernimmt ein gleichnamiges
-        Twig-Template den Vorrang, fehlt dieser Kommentar. Diese Erweiterung schließt genau diese
-        Lücke, ohne Contao selbst zu verändern.
+        Diese Erweiterung markiert Twig-Templates im Debug-Modus mit einem Kommentar, der Anfang
+        und Ende der jeweiligen Vorlage im Quelltext kennzeichnet - genau das, was die
+        klassischen .html5-Vorlagen von Contao schon immer taten. So ist im Quelltext einer
+        Seite sofort zu sehen, welche Vorlage welches Stück HTML erzeugt hat, auch wenn ein
+        gleichnamiges Twig-Template die eigene Vorlage von Contao ersetzt.
 
         Wirksam ist sie nur im Debug-Modus und nur für Twig-Templates, die Contao selbst unter
         einem festen Namen lädt, also Content-Elemente, Module und alte Vorlagen, die durch ein
